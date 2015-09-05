@@ -5,7 +5,7 @@ public class Percolation {
 	private WeightedQuickUnionUF grid;
 	private boolean[][] sites;
 	private int N;
-	private boolean status[];
+	private boolean[] status;
 
 	// create N-by-N grid, with all sites blocked
 	public Percolation(int N) {
@@ -135,7 +135,7 @@ public class Percolation {
 	}
 
 	// test client
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
 	}
 
